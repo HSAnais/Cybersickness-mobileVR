@@ -93,8 +93,6 @@
     <Compile Include="Assets\DaydreamRenderer\Editor\RangeProperty_TT.cs" />
     <Compile Include="Assets\DaydreamRenderer\Editor\TextureProperty_TT.cs" />
     <Compile Include="Assets\DaydreamRenderer\Editor\TextureProperty_TT_transform.cs" />
-    <Compile Include="Assets\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Demos\Editor\PermissionsDemoBuildProcessor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserPointerEditor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserVisualEditor.cs" />
@@ -109,19 +107,19 @@
     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -364,28 +362,28 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="fbsdefines_cs">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Assets/DaydreamRenderer/Plugins/fbsdefines_cs.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Assets/DaydreamRenderer/Plugins/fbsdefines_cs.dll</HintPath>
     </Reference>
     <Reference Include="FlatBuffers">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Assets/DaydreamRenderer/Plugins/FlatBuffers.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Assets/DaydreamRenderer/Plugins/FlatBuffers.dll</HintPath>
     </Reference>
     <Reference Include="Google.ProtocolBuffers">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/Dell/Documents/Uni docs/Project/Application/3yp/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/Dell/Documents/Uni_docs/Project/Application/Cybersickness-mobileVR/3yp/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

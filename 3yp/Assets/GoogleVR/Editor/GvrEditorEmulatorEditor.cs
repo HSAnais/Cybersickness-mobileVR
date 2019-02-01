@@ -35,6 +35,6 @@ public class GvrEditorEmulatorEditor : Editor {
     DrawDefaultInspector();
 
     Rect rect = EditorGUILayout.GetControlRect(false, infoHeight);
-    GvrInfoDrawer.Draw(rect, INFO_TEXT);
+    GvrInfoDrawer.Draw(rect, INFO_TEXT, MessageType.None);
   }
 }

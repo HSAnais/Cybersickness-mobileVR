@@ -139,9 +139,9 @@ namespace DaydreamElements.ArmModels {
     }
 
     private void Setup() {
-      if (VRDevice.isPresent) {
-        textureWidth = VRSettings.eyeTextureWidth;
-        textureHeight = VRSettings.eyeTextureHeight;
+      if (UnityEngine.XR.XRDevice.isPresent) {
+        textureWidth = UnityEngine.XR.XRSettings.eyeTextureWidth;
+        textureHeight = UnityEngine.XR.XRSettings.eyeTextureHeight;
       } else {
         textureWidth = Screen.width;
         textureHeight = Screen.height;
