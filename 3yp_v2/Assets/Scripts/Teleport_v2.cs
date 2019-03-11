@@ -8,9 +8,7 @@ public class Teleport_v2 : MonoBehaviour
 
     private void Start()
     {
-        print("teleport script is up");
-        player = GameObject.FindGameObjectWithTag("Player");
-        print(player);
+        player = GameObject.Find("Player");
     }
     public void TeleportPlayer()
     {
@@ -21,12 +19,12 @@ public class Teleport_v2 : MonoBehaviour
     public void PointerEnter()
     {
         print("pointer enter");
-        transform.GetChild(0).gameObject.SetActive(true);
+        transform.GetChild(1).gameObject.SetActive(true);//not getting it
     }
 
     public void PointerExit()
     {
         print("pointer exit");
-        transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(1).gameObject.SetActive(false);
     }
 }

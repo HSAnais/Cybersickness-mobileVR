@@ -44,8 +44,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 948
-  m_MinSize: {x: 679, y: 348}
-  m_MaxSize: {x: 12004, y: 8048}
+  m_MinSize: {x: 683, y: 348}
+  m_MaxSize: {x: 12008, y: 8048}
   vertical: 0
   controlID: 93
 --- !u!114 &3
@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 513
     height: 948
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -93,8 +93,8 @@ MonoBehaviour:
     y: 0
     width: 416
     height: 575
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -215,10 +215,10 @@ MonoBehaviour:
     y: 0
     width: 1407
     height: 948
-  m_MinSize: {x: 404, y: 348}
-  m_MaxSize: {x: 8004, y: 8048}
+  m_MinSize: {x: 406, y: 348}
+  m_MaxSize: {x: 8006, y: 8048}
   vertical: 1
-  controlID: 11
+  controlID: 61
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,10 +240,10 @@ MonoBehaviour:
     y: 0
     width: 1407
     height: 575
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 12
+  controlID: 36
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -336,20 +336,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Dell\Documents\Uni_docs\Project\Application\Cybersickness-mobileVR\3yp_v2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 602c0000
-    m_LastClickedID: 11360
-    m_ExpandedIDs: 00000000602c0000d62d0000302f0000f830000016310000bc310000a8350000a4360000bc3800008e3e0000ec3f000062400000bc410000e0420000e2450000a8470000464900006c4b0000a24b00004050000042500000445000004650000000ca9a3b
+    scrollPos: {x: 0, y: 1152}
+    m_SelectedIDs: d62d0000
+    m_LastClickedID: 11734
+    m_ExpandedIDs: 00000000602c0000d62d0000302f0000f830000016310000bc310000a8350000a4360000bc3800008e3e0000ec3f000062400000bc410000e0420000e2450000a8470000464900006c4b0000a24b00003a5000003c5000003e5000004050000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -377,7 +377,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 788}
     m_SelectedIDs: a8c1ffff
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000602c0000d62d0000302f0000f830000016310000bc310000a8350000a4360000bc3800008e3e0000ec3f000062400000bc410000e0420000e2450000a8470000464900006c4b0000a24b000040500000425000004450000046500000
+    m_ExpandedIDs: 00000000602c0000d62d0000302f0000f830000016310000bc310000a8350000a4360000bc3800008e3e0000ec3f000062400000bc410000e0420000e2450000a8470000464900006c4b0000a24b00003a5000003c5000003e50000040500000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -402,8 +402,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d0540000
-    m_LastClickedInstanceID: 21712
+    m_SelectedInstanceIDs: bc4e0000
+    m_LastClickedInstanceID: 20156
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300007a570000922400009424000000000000
     m_RenameOverlay:
@@ -496,9 +496,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a2550000
-      m_LastClickedID: 21922
-      m_ExpandedIDs: faf0ffff60f1ffff7cf1ffff68f4ffffb8fbffffb44e0000084f0000d0540000a2550000
+      m_SelectedIDs: bc4e0000
+      m_LastClickedID: 20156
+      m_ExpandedIDs: b8fbffff624e0000684e00009e4e0000b04e0000bc4e0000044f0000184f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -584,13 +584,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.29967794, y: 0.028894719, z: -0.009092164, w: 0.9535594}
+    m_Target: {x: 0.17214012, y: 0.20693004, z: -0.037024617, w: 0.9623809}
     speed: 2
-    m_Value: {x: 0.29967794, y: 0.028894719, z: -0.009092164, w: 0.9535594}
+    m_Value: {x: 0.17214012, y: 0.20693004, z: -0.037024617, w: 0.9623809}
   m_Size:
-    m_Target: 31.666805
+    m_Target: 48.091057
     speed: 2
-    m_Value: 31.666805
+    m_Value: 48.091057
   m_Ortho:
     m_Target: 0
     speed: 2

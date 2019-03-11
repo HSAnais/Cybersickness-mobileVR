@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Hand_step : MonoBehaviour
 {
-    private int playerSpeed;
+    public int playerSpeed = 10;
     private GvrControllerInputDevice controller;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +17,7 @@ public class Hand_step : MonoBehaviour
     void Update()
     {
         //if the controller's position is changed:
-        //(?) calculate speed from the difference of coordinates
-        transform.position = transform.position + Camera.main.transform.forward * playerSpeed * Time.deltaTime;
+        if(controller.Accel.x > 5 || controller.Accel.y > 5)
+            transform.position = transform.position + Camera.main.transform.forward * playerSpeed * Time.deltaTime;
     }
 }
