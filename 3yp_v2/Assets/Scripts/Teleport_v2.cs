@@ -10,21 +10,23 @@ public class Teleport_v2 : MonoBehaviour
     {
         player = GameObject.Find("Player");
     }
+
+    private void Update()
+    {
+       
+    }
     public void TeleportPlayer()
     {
-        print("position method is accessed");
         player.transform.position = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
     }
 
     public void PointerEnter()
     {
-        print("pointer enter");
-        transform.GetChild(1).gameObject.SetActive(true);//not getting it
+        transform.GetChild(0).gameObject.SetActive(true);
     }
 
     public void PointerExit()
     {
-        print("pointer exit");
-        transform.GetChild(1).gameObject.SetActive(false);
+        transform.GetChild(0).gameObject.SetActive(false);
     }
 }

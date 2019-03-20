@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerButtonController : MonoBehaviour
 {
-    public GameObject MenuContainer; //menu prefab
-    private GameObject menuInstance;
+    private GameObject MenuContainer; //menu
+    private bool menuStatus;
+    private GameObject slider;
 
     private GvrControllerInputDevice controller;
     private Camera cmr;
@@ -15,13 +16,19 @@ public class PlayerButtonController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        menuInstance = null;
         cmr = Camera.main;
 
         //remember start position of camera
         startPos = cmr.transform.position;
 
         controller = GvrControllerInput.GetDevice(GvrControllerHand.Right);
+        slider = GameObject.Find("PlayerSpeed");
+
+        MenuContainer = GameObject.Find("MenuContainer");
+        MenuContainer.SetActive(false);
+        menuStatus = false;
+
+        slider.SetActive(true);
     }
 
     // Update is called once per frame
@@ -29,28 +36,16 @@ public class PlayerButtonController : MonoBehaviour
     {
         //menu binding to App button
         if (controller.GetButtonDown(GvrControllerButton.App))
-            if (menuInstance)
-                DestroyMenu();
-            else
-                CreateMenu();
+        {
+            menuStatus = !menuStatus;
+            MenuContainer.SetActive(menuStatus);
+
+            //this doesnt happen through when coming back
+            slider.SetActive(!menuStatus);
+        }
 
         //reset camera position binding to Home button
         if (controller.GetButtonDown(GvrControllerButton.System))
             cmr.transform.position = startPos;
-    }
-
-    private void CreateMenu()
-    {
-        //Move camera in front of player's view
-        Vector3 direction = cmr.transform.forward * 3;
-        direction.y += MenuContainer.transform.position.y;
-
-        menuInstance = Instantiate(MenuContainer, direction, cmr.transform.rotation);
-    }
-
-    private void DestroyMenu()
-    {
-        Destroy(menuInstance);
-        menuInstance = null;
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Waypoint
   - ScreenCover
+  - Button
   layers:
   - Default
   - TransparentFX
