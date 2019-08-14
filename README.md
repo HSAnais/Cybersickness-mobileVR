@@ -1,4 +1,4 @@
-# Cybersickness-mobileVR
+# Cybersickness induced by movement within virtual reality on a mobile platform
 
 ## Abstract
 This project will be facing the movement challenges of mobile virtual reality experiences based on mobile platforms, by testing empirically five different ways of locomotion (teleportation, tunnel vision, blink step, dash step and swinging the controller) within a given virtual space (climbing/hiking on a mountain and walking/reading in a museum). Exploring a mountain requires a more goal-directed approach in User Experience (UX), while the other relies on storytelling design. The experiment will consist of a mobile application encompassing the two scenarios and five locomotion techniques followed by a survey to quantify the participants’ feedback. The application will be developed in Unity and its scripts written in C#.
